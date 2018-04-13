@@ -1,0 +1,8 @@
+{
+  "name": "whiteApp",
+  "app_id": "a9ac4843",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
