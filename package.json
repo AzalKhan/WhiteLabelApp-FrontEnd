@@ -9,14 +9,16 @@
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@angular/animations": "5.2.9",
     "@angular/common": "5.2.9",
     "@angular/compiler": "5.2.9",
-    "@angular/compiler-cli": "5.2.9",
-    "@angular/core": "5.2.9",
+    "@angular/compiler-cli": "9.0.0",
+    "@angular/core": "11.0.5",
     "@angular/forms": "5.2.9",
     "@angular/http": "5.2.9",
     "@angular/platform-browser": "5.2.9",
@@ -30,11 +32,13 @@
     "ionicons": "3.0.0",
     "rxjs": "5.5.8",
     "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.26"
+    "zone.js": "0.8.26",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.1.8",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "snyk": true
 }
